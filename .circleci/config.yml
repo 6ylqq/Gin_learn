@@ -6,8 +6,6 @@ jobs:
     docker:
       - image: circleci/golang:1.15.8
     steps:
-      - # 检出
-        -
       - checkout
       - restore_cache:
           keys:
